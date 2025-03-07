@@ -2,8 +2,11 @@
     "name": "zqzx/excel-pro",
     "description": "基于xlswriter进行的Excel业务封装",
     "type": "library",
+    "keywords": ["php", "excel", "xlswriter"],
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.3",
+        "ext-xlswriter": "*",
+        "ext-redis": "*"
     },
     "license": "MIT",
     "autoload": {
